@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaraciones</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <button name="Inicio" type="button" id="inicio"><a href="index.html">SRIenlinea</a></button>
+        </nav>
+    </header>
+    <main>
+        <h1 id="cbz">Formulario de declaración mensual del IVA</h1>
+    </main>
+
+    <form action="/my-handling-form-page" method="post" class="dcrc">
+        <ul>
+         <li>
+             <label for="fecha"><p id="abc">Fecha en la que realizará la declaración</p></label>
+             <input type="date" id="fecha" name="fecha">
+         </li>
+         <li>
+             <label for="marque"><p id="abc">Marque la casilla si requiere informar valores en su declaración de este periodo</p></label>
+             <input type="checkbox" id="marque" name="marque">
+         </li>
+         <li>
+             <label for="msg"><p id="abc">Subir Formulario</p></label>
+             <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+             <input type="file" />
+         </li>
+         <li>
+             <label for="msg"><p id="abc">Si desea puede añadir algun comentario</p></label>
+             <textarea id="msg" name="user_message"></textarea>
+         </li>
+         <li class="button">
+             <button type="submit"><a href="fin.html">Enviar</a></button>
+          </li>
+          
+        </ul>
+    </form>
+    <div><br></div>
+    <footer>
+        <p> &#169; Servicio de Rentas Internas 2022</p>
+    </footer>
+       
+    
+</body>
+</html>
